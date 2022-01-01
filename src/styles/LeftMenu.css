@@ -281,3 +281,31 @@
   transition: width 250ms linear;
 }
 
+@media screen and (max-width: 550px) {
+  .leftMenu {
+    width: 64px;
+    min-width: 64px;
+  }
+
+  .leftMenu .searchBox,
+  .leftMenu .trackList,
+  .leftMenu .playListContainer {
+    display: none;
+  }
+
+  .leftMenu .menuContainer ul li a span {
+    display: none;
+  }
+
+  .leftMenu .menuContainer ul li a i {
+    font-size: 26px;
+  }
+
+  .leftMenu .menuContainer ul li {
+    margin: 25px 0;
+  }
+
+  .leftMenu .logoContainer h2 {
+    margin-left: 20px;
+  }
+}
